@@ -1,0 +1,285 @@
+body {
+    background-color: #888;
+    color: #000;
+    font-family: Georgia;
+    font-size: 14px;
+    margin: 0;
+}
+
+.page {
+    background-color: #f1f1f3;
+    box-shadow: 2px 5px 10px #333;
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 1120px;
+}
+
+.wrapper {
+    overflow: hidden;
+    padding: 10px 40px;
+}
+
+.clearfix:after {
+    content: " ";
+    clear: both;
+    display: table;
+}
+
+header {
+    background-color: #99ccff;
+}
+
+#sitename {
+    float: left;
+}
+
+main {
+    min-height: calc(100vh - 130px);
+}
+
+article {
+    margin-bottom: 20px
+}
+
+footer {
+    background-color: #ddd;
+    height: 40px;
+}
+
+/*Main elements*/
+h1 a {
+    color: #222;
+}
+
+h1 a:hover {
+    text-decoration: none;
+}
+h1 a:hover, h3 a, .editor a {
+    color: #00538a;
+}
+
+p {
+    line-height: 1.4;
+    margin: 0 0 15px;
+}
+
+p.info {
+    color: #777;
+}
+
+span.online {
+    color: #009900;
+    margin-left: 5px;
+}
+
+article p {
+    font-size: 16px;
+}
+
+.tabs {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.btn {
+    background-color: #bbb;
+    color: #fff;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    padding: 5px 10px;
+}
+
+.btn:hover {
+    background-color: #aaa;
+    text-decoration: none;
+}
+
+.btn:focus {
+    padding: 6px 10px 4px;
+}
+
+/* Userblock */
+#userblock {
+    float: right;
+    margin: 10px 0;
+}
+
+#userblock a {
+    color: #00538a;
+    margin-left: 10px;
+}
+
+/*Lists and links*/
+ul {
+    margin: 20px 0;
+    padding: 0;
+}
+.nolstyle li {
+    list-style: none;
+}
+
+.llist li {
+    float: left;
+    margin-right: 10px;
+}
+
+.editor .new {
+    margin-bottom: 20px;
+}
+
+a, .editor .new a {
+    color: #00bfff;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.crumbs {
+    clear: both;
+    font-size: 11px;
+    padding: 5px 0 15px;
+}
+
+.crumbs span {
+    margin: 0 5px 0 12px;
+}
+
+.crumbs a {
+    color: #009900;
+}
+
+.crumbs a:hover {
+    color: #00bfff;
+}
+
+.menu {
+    margin: 10px 0;
+}
+
+.menu .edlink {
+    margin-right: 10px;
+}
+
+.menu .users {
+    color: #009900;
+}
+
+ul.users {
+    margin-left: 20px;
+}
+
+ul.users li {
+    padding: 5px 0;
+}
+
+.error {
+    color: red;
+}
+
+/*Form elements style*/
+form.user-action {
+    width: 320px;
+}
+
+textarea
+{
+    height: 300px;
+}
+
+input[type="submit"] {
+    margin-right: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea {
+    border: 1px solid #ccc;
+    color: #666;
+    display: block;
+    font-family: Tahoma;
+    margin: 5px 0 15px;
+    padding: 7px 10px;
+    width: 100%;
+}
+
+.cancel {
+    color: #999;
+}
+
+.cancel:hover {
+    color: #777;
+}
+
+/* Comments */
+#comments {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+
+.comment {
+    background: #f7f7f7;
+    margin-bottom: 15px;
+    padding: 18px 20px;
+}
+
+.comment span {
+    display: block;
+    font-family: 	Courier New;
+    font-size: 12px;
+}
+
+.comment .name {
+    color: #1e90ff;
+}
+
+.comment .c-date {
+    color: #888;
+    margin-top: 5px;
+}
+
+.comment form {
+    margin: 0;
+}
+
+.comment form input[type="submit"] {
+    cursor: pointer;
+    background-color: #ccc;
+    border: none;
+    color: #fff;
+    font-size: 11px;
+    margin-right: 10px;
+    padding: 5px 8px;
+    outline: none;
+}
+
+.comment form input[type="submit"]:focus {
+    background-color: #bbb;
+    padding: 6px 8px 4px;
+}
+
+.comment .c-info {
+    float: left;
+    padding-right: 10px;
+    width: 110px;
+}
+
+.comment .c-content {
+    border-left: 1px solid #ccc;
+    padding-left: 15px;
+    overflow: hidden;
+}
+
+#comments .c-add {
+    width: 50%;
+}
+
+#comments .c-add textarea {
+    height: 150px;
+}
